@@ -7,7 +7,7 @@ html {
   --color-light: #ffffff;
   --text-color: #757575;
 }
-/* скидання стилів */   
+/* скидання стилів */
 
 * {
   padding: 0;
@@ -212,7 +212,7 @@ ul {
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../image/fon.jpg);
-    background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   background-position: center;
   text-align: center;
 }
@@ -378,14 +378,23 @@ ul {
 .group li:last-child {
   margin-right: 0;
 }
-.container .client{max-width: 1200px;}
+.container .client {
+  max-width: 1200px;
+}
 
-.icon_client{width: 106px; height: 60px;}
+.icon_client {
+  width: 106px;
+  height: 60px;
+}
 .icon-group .icon {
   fill: #afb1b8;
 }
 
-.icon-group:hover, .icon-group:focus {border-color: var(--accent-color); fill: var(--accent-color);}
+.icon-group:hover,
+.icon-group:focus {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+}
 
 .icon_contact {
   width: 16px;
@@ -402,8 +411,6 @@ ul {
   align-items: center;
   align-content: center;
 }
-
-
 
 .our_team .item + .item {
   margin-left: 30px;

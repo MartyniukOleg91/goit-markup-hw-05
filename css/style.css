@@ -404,7 +404,30 @@ ul {
 .container_works .foto {
   display: flex;
   justify-content: center;
+  
 }
+
+.foto .item{ position: relative;
+}
+
+.app{
+  content: '';
+  position: absolute;
+  width: 100%;
+  padding-top: 27px;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+
+text-transform: uppercase;
+color: var(--color-light);
+}
+
+
 
 /* Імена учасників команди */
 

@@ -215,6 +215,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  position: relative;
 }
 
 /* Центральна кнопка */
@@ -243,6 +244,16 @@ ul {
 
 .text_button {
   margin: 10px 32px;
+}
+
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+  width: 100px;
+  height: 100px;
 }
 
 .benefits_icon {

@@ -7,7 +7,7 @@ html {
   --color-light: #ffffff;
   --text-color: #757575;
 }
-/* скидання стилів */
+/* скидання стилів */   
 
 * {
   padding: 0;
@@ -284,7 +284,8 @@ ul {
   background-color: var(--accent-color);
 }
 .button_portfolio:focus {
-  color: var(--accent-color);
+  color: var(--color-light);
+  background-color: var(--accent-color);
 }
 
 .section_title {
@@ -374,9 +375,9 @@ ul {
   fill: currentColor;
 }
 
-.client{margin: auto;}
-
-
+.group li:last-child {
+  margin-right: 0;
+}
 .container .client{max-width: 1200px;}
 
 .icon_client{width: 106px; height: 60px;}
@@ -384,7 +385,7 @@ ul {
   fill: #afb1b8;
 }
 
-.icon-group:hover{border-color: var(--accent-color); fill: var(--accent-color);}
+.icon-group:hover, .icon-group:focus {border-color: var(--accent-color); fill: var(--accent-color);}
 
 .icon_contact {
   width: 16px;
@@ -398,7 +399,6 @@ ul {
 }
 .group {
   display: flex;
-  justify-content: center;
   align-items: center;
   align-content: center;
 }

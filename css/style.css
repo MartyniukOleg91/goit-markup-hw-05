@@ -144,6 +144,7 @@ ul {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav:focus {
   color: var(--accent-color);
@@ -181,6 +182,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link_contact:hover,
@@ -200,6 +202,7 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
+
 }
 
 .contact {
@@ -261,6 +264,7 @@ ul {
 }
 
 .text_button {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 10px 32px;
 }
 
@@ -345,6 +349,7 @@ ul {
   border-color: rgba(255, 255, 255, 0);
   background: #f5f4fa;
   border-radius: 8px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons .item + .item {
@@ -467,6 +472,7 @@ color: var(--color-light);
   margin-right: 30px;
   color: #afb1b8;
   fill: currentColor;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .group li:last-child {
@@ -548,6 +554,7 @@ color: var(--color-light);
   margin-right: 10px;
   color: #afb1b8;
   fill: currentColor;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social_link:hover,
@@ -629,6 +636,7 @@ footer {
   line-height: 24px;
   color: var(--color-light);
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer_link:hover {
   color: var(--accent-color);
@@ -646,6 +654,7 @@ address {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer_link_mail:hover,
@@ -687,6 +696,7 @@ address {
   margin-right: 10px;
   color: var(--color-light);
   fill: currentColor;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social_link_footer:hover,
 .social_link_footer:focus {

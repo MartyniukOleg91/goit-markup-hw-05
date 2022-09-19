@@ -716,6 +716,7 @@ address {
   flex-wrap: wrap;
   justify-content: center;
   
+  
 }
 
 .price .title {
@@ -725,8 +726,13 @@ address {
   position: relative;
 }
 
+.price .title:hover, .price .title:focus{box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
+
+
+
 .thumb{position: relative;
   overflow: hidden;
+  
  }
 
 .overley{
@@ -744,12 +750,15 @@ address {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
   background-color: rgba(33, 150, 243, 0.9);
+
+  
 }
 
 .text_overley{display: block;
 padding: 63px 24px;
 }
 .link_price:hover .overley{transform: translateY(0);}
+  
 .link_price:focus .overley{transform: translateY(0);}
 
 .price .title:nth-last-child(-n + 3) {

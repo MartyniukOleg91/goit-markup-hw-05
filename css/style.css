@@ -272,6 +272,8 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  display: flex;
+  justify-content: end;
 }
 
 .modal_button {
@@ -280,19 +282,20 @@ ul {
   background: var(--color-light);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  margin-right: auto;
+  margin-right: 8px;
+  margin-top: 8px;
+  color: black;
+  fill: currentColor;
 }
 
 
-.modal_button:hover,
-.modal_button:focus {
+.modal_button:hover, 
+.modal_button:focus{
   fill: var(--accent-color);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
-.modal_window {
-  display: flex;
-  justify-content: end;
-}
 
 .benefits_icon {
   display: inline-block;

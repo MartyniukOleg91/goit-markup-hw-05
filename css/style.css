@@ -116,6 +116,23 @@ ul {
 }
 
 /* формат шрифту навігаційних посилань */
+.site_nav .item{
+  position: relative;
+}
+
+.item .current::after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+
+}
+
 .main_nav {
   display: flex;
   align-items: center;
